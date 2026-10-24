@@ -32,7 +32,8 @@ public actor EventKitCalendar: EventSource, CalendarAuthorizing {
 
     /// Puede mostrar el diálogo del sistema (y, sin Info.plist, abortar el proceso): solo desde el botón de la vista.
     public func requestAccess() async throws -> Bool {
-        try await theStore().requestFullAccessToEvents()
+        let store = theStore()
+        return try await store.requestFullAccessToEvents()
     }
 
     public func events(from: Date, to: Date) async throws -> [CalendarEvent] {
