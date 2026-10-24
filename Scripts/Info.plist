@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key><string>en</string>
+	<key>CFBundleLocalizations</key>
+	<array><string>en</string><string>es</string><string>fr</string><string>de</string><string>pt-BR</string><string>zh-Hans</string></array>
+	<key>CFBundleIdentifier</key><string>dev.aura.notch</string>
+	<key>CFBundleName</key><string>Aura Notch</string>
+	<key>CFBundleDisplayName</key><string>Aura Notch</string>
+	<key>CFBundleExecutable</key><string>AuraNotch</string>
+	<key>CFBundleIconFile</key><string>AppIcon</string>
+	<key>CFBundlePackageType</key><string>APPL</string>
+	<key>CFBundleShortVersionString</key><string>0.1.0</string>
+	<key>CFBundleVersion</key><string>1</string>
+	<key>LSMinimumSystemVersion</key><string>14.0</string>
+	<key>LSUIElement</key><true/>
+	<key>NSHighResolutionCapable</key><true/>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>Aura Notch controls Music and Spotify (play, pause, skip) only when you press its controls.</string>
+	<key>NSCalendarsFullAccessUsageDescription</key>
+	<string>Aura Notch shows your upcoming events in the panel. It only reads; it never modifies or stores copies of your calendar.</string>
+</dict>
+</plist>
