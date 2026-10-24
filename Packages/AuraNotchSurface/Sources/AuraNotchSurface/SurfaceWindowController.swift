@@ -143,10 +143,10 @@ extension ScreenMetrics {
                     // Si la vista del panel recibió el archivo, `.drop` ya limpió el arrastre. Si el destino pasó a una vista de
                     // SwiftUI o el panel se expandió con el arrastre en marcha, el soltado no llega aquí: se usan los archivos
                     // guardados al detectar el arrastre (la shelf deduplica, así que un doble alta es inocuo).
-                    guard let self, model.dragActive else { return }
-                    let urls = dragProximity?.capturedURLs ?? []
-                    if panel.frame.contains(pointerProvider()), !urls.isEmpty { send(.drop); onDrop?(urls) }
-                    else { send(.dragExited) }
+                    guard let self, self.model.dragActive else { return }
+                    let urls = self.dragProximity?.capturedURLs ?? []
+                    if self.panel.frame.contains(self.pointerProvider()), !urls.isEmpty { self.send(.drop); self.onDrop?(urls) }
+                    else { self.send(.dragExited) }
                 }
             })
         dragProximity = drag
