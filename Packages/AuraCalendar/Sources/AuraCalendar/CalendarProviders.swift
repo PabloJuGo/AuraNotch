@@ -32,7 +32,8 @@ public actor EventKitCalendar: EventSource, CalendarAuthorizing {
 
     /// Puede mostrar el diálogo del sistema (y, sin Info.plist, abortar el proceso): solo desde el botón de la vista.
     public func requestAccess() async throws -> Bool {
-        let store = theStore()
+        // EKEventStore no es Sendable; solo se usa desde esta llamada, así que no hay acceso concurrente.
+        nonisolated(unsafe) let store = theStore()
         return try await store.requestFullAccessToEvents()
     }
 
