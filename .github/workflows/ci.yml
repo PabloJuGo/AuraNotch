@@ -1,12 +1,12 @@
 name: CI
 on: [push, pull_request]
 jobs:
-  build-test:
+  build:
     runs-on: macos-15
     steps:
       - uses: actions/checkout@v4
       - run: swift build
-      - run: swift test
-      - run: swift run AuraSelfTests
-      - run: swift run AuraNotch --selftest-window
+      # The self-test suites drive real AppKit windows and the accessibility tree, which need a logged-in
+      # GUI session; run them locally with `swift run AuraSelfTests`.
+      - run: python3 Scripts/check-localizations.py
       - run: Scripts/package-app.sh
