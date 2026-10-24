@@ -1,6 +1,6 @@
 import AppKit
 import Foundation
-import UserNotifications
+@preconcurrency import UserNotifications
 
 /// Sonido de aviso (inyectable: las pruebas no tocan el sistema).
 @MainActor public protocol TimerSound {
