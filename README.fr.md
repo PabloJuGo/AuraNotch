@@ -11,7 +11,7 @@ Contrôles de lecture, étagère temporaire de fichiers, vos prochains événeme
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-black?logo=apple)
 ![Swift 6](https://img.shields.io/badge/Swift-6-orange?logo=swift)
-![License MIT](https://img.shields.io/badge/license-MIT-blue)
+![License GPL-3.0](https://img.shields.io/badge/license-GPL--3.0-blue)
 ![Status beta](https://img.shields.io/badge/status-beta-yellow)
 
 <img src="Docs/images/closed.png" width="420" alt="Encoche réduite pendant la lecture d’un morceau">
@@ -110,4 +110,4 @@ Les issues et pull requests sont les bienvenues ; voir [CONTRIBUTING.md](CONTRIB
 
 ## Licence
 
-[MIT](LICENSE). Aura Notch est un projet indépendant et n’est affilié ni à Apple, ni à Spotify, ni à aucune autre app mentionnée ici.
+[GPL-3.0](LICENSE). Aura Notch est un projet indépendant et n’est affilié ni à Apple, ni à Spotify, ni à aucune autre app mentionnée ici.

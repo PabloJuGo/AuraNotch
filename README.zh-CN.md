@@ -11,7 +11,7 @@
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-black?logo=apple)
 ![Swift 6](https://img.shields.io/badge/Swift-6-orange?logo=swift)
-![License MIT](https://img.shields.io/badge/license-MIT-blue)
+![License GPL-3.0](https://img.shields.io/badge/license-GPL--3.0-blue)
 ![Status beta](https://img.shields.io/badge/status-beta-yellow)
 
 <img src="Docs/images/closed.png" width="420" alt="播放音乐时收起的刘海">
@@ -110,4 +110,4 @@ Aura Notch 目前是**测试版**。需要了解的事项：
 
 ## 许可
 
-[MIT](LICENSE)。Aura Notch 是一个独立项目，与 Apple、Spotify 或此处提到的任何其他 App 均无关联。
+[GPL-3.0](LICENSE)。Aura Notch 是一个独立项目，与 Apple、Spotify 或此处提到的任何其他 App 均无关联。

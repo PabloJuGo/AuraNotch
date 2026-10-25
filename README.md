@@ -11,7 +11,7 @@ Now-playing controls, a temporary file shelf, your next events, a timer, volume,
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-black?logo=apple)
 ![Swift 6](https://img.shields.io/badge/Swift-6-orange?logo=swift)
-![License MIT](https://img.shields.io/badge/license-MIT-blue)
+![License GPL-3.0](https://img.shields.io/badge/license-GPL--3.0-blue)
 ![Status beta](https://img.shields.io/badge/status-beta-yellow)
 
 <img src="Docs/images/closed.png" width="420" alt="Collapsed notch while music plays">
@@ -110,4 +110,4 @@ Issues and pull requests are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md). To
 
 ## License
 
-[MIT](LICENSE). Aura Notch is an independent project and is not affiliated with Apple, Spotify or any other app mentioned here.
+[GPL-3.0](LICENSE). Aura Notch is an independent project and is not affiliated with Apple, Spotify or any other app mentioned here.

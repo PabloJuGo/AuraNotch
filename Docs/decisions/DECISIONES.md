@@ -6,7 +6,7 @@ El propietario delegó las decisiones al LEAD el 24-10-2026 (nombre y licencia c
 | # | Tema | Decisión | Motivo |
 |---|---|---|---|
 | 2 | Nombre | **Aura Notch** (provisional, confirmado por el propietario) | Sin disponibilidad de marca estudiada |
-| 5 | Licencia | **MIT** (confirmada) | Cero dependencias externas; compatible |
+| 5 | Licencia | **GPL-3.0** (cambiada desde MIT el 2026-10-25) | Cero dependencias externas; compatible |
 | 3 | macOS mínimo | 14+ (declarado); verificado solo en 27.0.1 | APIs usadas existen desde 14; no se afirma compatibilidad no probada |
 | 4 | Distribución | Directa, firmada y notarizada; **sin sandbox**. Mac App Store descartada | Apple Events a Música/Spotify y bookmarks normales; ver API_CAPABILITIES |
 | 7 | Panel claro en flotante | No: superficie siempre negra | Coherencia con el notch; menos superficie de pruebas |
